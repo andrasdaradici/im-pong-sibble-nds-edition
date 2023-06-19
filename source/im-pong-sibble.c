@@ -105,7 +105,8 @@ int main() {
 			iprintf("\x1b[7;0HDPAD Up & DPAD Down to navigate");
 			iprintf("\x1b[18;0H            Controls:");
 			iprintf("\x1b[20;0H  Player 1: DPAD Up & DPAD Down");
-			iprintf("\x1b[22;0H       Player 2: X & B");
+			iprintf("\x1b[21;0H         Player 2: X & B");
+			iprintf("\x1b[22;0H       Start to pause game");
 			vramSetBankE(VRAM_E_LCD);
 			
 			hits = 0;
@@ -206,6 +207,7 @@ int main() {
 			iprintf("\x1b[7;0H                                     ");
 			iprintf("\x1b[18;0H                                     ");
 			iprintf("\x1b[20;0H                                     ");
+			iprintf("\x1b[21;0H                                     ");
 			iprintf("\x1b[22;0H                                      ");
 			if(PlayerY <= 25)
 			{
@@ -311,6 +313,7 @@ int main() {
 			iprintf("\x1b[7;0H                                     ");
 			iprintf("\x1b[18;0H                                     ");
 			iprintf("\x1b[20;0H                                     ");
+			iprintf("\x1b[21;0H                                     ");
 			iprintf("\x1b[22;0H                                      ");
 			if(PlayerY <= 25)
 			{
