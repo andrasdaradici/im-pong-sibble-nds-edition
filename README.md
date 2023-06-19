@@ -14,3 +14,5 @@ Im-Pong-Sibble ported to the NDS using the libnds and gl2d library using the C p
 
 # Fixes
 ## Fix #1 
+- Added the ability to pause the game
+- Removed a piece of code for an unused sound effect that is not present in the files
