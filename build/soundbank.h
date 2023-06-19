@@ -1,0 +1,9 @@
+#define SFX_AMBULANCE	0
+#define SFX_BOOM	1
+#define MOD_FLATOUTLIES	0
+#define SFX_UISELECT	33
+#define SFX_WALLHIT	34
+#define SFX_UIPRESS	35
+#define MSL_NSONGS	1
+#define MSL_NSAMPS	35
+#define MSL_BANKSIZE	36
