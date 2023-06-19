@@ -15,4 +15,14 @@ Im-Pong-Sibble ported to the NDS using the libnds and gl2d library using the C p
 # Fixes
 ## Fix #1 
 - Added the ability to pause the game
-- Removed a piece of code for an unused sound effect that is not present in the files
+- Removed an unused piece of code
+- 
+# "How to compile and play after I modify the code?"
+To compile this project you first need to have `devkitpro` installed.
+Steps for compiling and playing the project (Windows only):
+- Step 1: Open up the command prompt or Powershell
+- Step 2: Navigate to the folder where you have the `MAKE` file
+- Step 3: Type `make` into the command prompt or Powershell
+- Step 4: Use the NDS file with an emulator or a DS
+    - F.e. [DeSmuMe](https://github.com/TASEmulators/desmume/releases/tag/release_0_9_13)
+- Step 5: Enjoy q(≧▽≦q)
