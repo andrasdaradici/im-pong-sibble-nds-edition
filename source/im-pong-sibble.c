@@ -50,14 +50,6 @@ int main() {
 		255,	// panning
 	};
 
-	mm_sound_effect ui_press = {
-		{ SFX_UIPRESS } ,			// id
-		(int)(1.0f * (1<<10)),	// rate
-		0,		// handle
-		255,	// volume
-		255,	// panning
-	};
-
 	mm_sound_effect wallhit = {
 		{ SFX_WALLHIT } ,			// id
 		(int)(1.0f * (1<<10)),	// rate
@@ -223,7 +215,7 @@ int main() {
 			}
 			glBoxFilled(3, PlayerY-20, 6, PlayerY+20, RGB15(255,255,255));
 			glBoxFilled(BallX-2, BallY-2, BallX+2, BallY+2, RGB15(255,255,255));
-			glBoxFilled(252, BallY-20, 247, BallY+20, RGB15(255,255,255));
+			glBoxFilled(253, BallY-20, 248, BallY+20, RGB15(255,255,255));
 
 			if(GoingRight)
 			{
@@ -252,7 +244,7 @@ int main() {
 				GoingUp = true;
 				mmEffectEx(&wallhit);
 			}
-			if(BallX >= 247)
+			if(BallX >= 248)
 			{
 				GoingRight = false;
 				mmEffectEx(&wallhit);
@@ -317,7 +309,7 @@ int main() {
 			}
 			glBoxFilled(3, PlayerY-20, 6, PlayerY+20, RGB15(255,255,255));
 			glBoxFilled(BallX-2, BallY-2, BallX+2, BallY+2, RGB15(255,255,255));
-			glBoxFilled(252, Player2Y-20, 247, Player2Y+20, RGB15(255,255,255));
+			glBoxFilled(253, Player2Y-20, 248, Player2Y+20, RGB15(255,255,255));
 
 			if(GoingRight)
 			{
@@ -346,7 +338,7 @@ int main() {
 				GoingUp = true;
 				mmEffectEx(&wallhit);
 			}
-			if(BallX >= 247)
+			if(BallX >= 248)
 			{
 				if(BallY <= Player2Y+22 && BallY >= Player2Y-22)
 				{
