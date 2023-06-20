@@ -23,6 +23,6 @@ Steps for compiling and playing the project (Windows only):
 - Step 1: Open up the command prompt or Powershell
 - Step 2: Navigate to the folder where you have the `MAKE` file
 - Step 3: Type `make` into the command prompt or Powershell
-- Step 4: Use the NDS file with an emulator or a DS
+- Step 4: Use the `.nds` file with an emulator or a DS
     - F.e. [DeSmuMe](https://github.com/TASEmulators/desmume/releases/tag/release_0_9_13)
 - Step 5: Enjoy q(≧▽≦q)
