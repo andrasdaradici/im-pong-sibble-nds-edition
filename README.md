@@ -16,7 +16,7 @@ Im-Pong-Sibble ported to the NDS using the libnds and gl2d library using the C p
 ## Fix #1 
 - Added the ability to pause the game
 - Removed an unused piece of code
-- 
+
 # "How to compile and play after I modify the code?"
 To compile this project you first need to have `devkitpro` installed.
 Steps for compiling and playing the project (Windows only):
